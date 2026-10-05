@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.feima.posetuner.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "posetuner.refmap.json",
+  "client": [
+    "LivingEntityRendererMixin",
+    "HumanoidModelMixin",
+    "PlayerBodyRotMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

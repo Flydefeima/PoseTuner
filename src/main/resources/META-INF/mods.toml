@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="posetuner"
+version="${file.jarVersion}"
+displayName="PoseTuner"
+authors="Feima"
+description='''
+A visual tuner for player poses.
+'''
+
+[[dependencies.posetuner]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="CLIENT"
